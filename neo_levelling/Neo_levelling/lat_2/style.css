@@ -1,0 +1,100 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+.title
+{
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+   margin-top: 50px ;
+}
+.container
+{
+  
+  background-color: white;
+  padding: 10px;
+    width: 80%;
+    font-size: 22px;
+    font-weight: 200;
+    margin: auto;
+    border: 5px solid black ;
+}
+
+input[type=text],  input[type=date],   input[type=email] {
+    width: 20%;
+    padding: 10px 20px 10px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=text]:focus,  input[type=date]:focus,   input[type=email]:focus
+  
+  {
+    width: 40%;
+    transition: width 2s;
+ 
+  }
+
+  
+
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  .title_head {
+ font-size: 40px;
+ font-weight: 200;
+ text-align: center;
+ margin: 70px 0px 70px 0px;
+   
+  }
+
+  body {
+    background-image: url("univ2.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+   }
+
+   .gambar_person img
+   {
+     width: 30%;
+     height: 70%;
+     position: absolute;
+     margin-left: 35%;
+   }
+   .gambar_person p
+   {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 40%;
+  }
+   
+  .space
+  {
+    margin-top: 200px;
+  }
